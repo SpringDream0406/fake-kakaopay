@@ -6,6 +6,8 @@ function App() {
   const amountRef = useRef(null);
   const nameRef = useRef(null);
   const IMP_init = process.env.REACT_APP_IMP;
+  const buyer_tel = process.env.REACT_APP_BUYER_TEL
+
 
   function onClickPayment() {
 
@@ -25,7 +27,7 @@ function App() {
       amount: amount,                                 // 결제금액
       name: name,                  // 주문명
       buyer_name: '홍길동',                           // 구매자 이름
-      buyer_tel: '01012341234',                     // 구매자 전화번호
+      buyer_tel: buyer_tel,                     // 구매자 전화번호
       buyer_email: 'example@example',               // 구매자 이메일
       buyer_addr: '신사동 661-16',                    // 구매자 주소
       buyer_postcode: '06018',                      // 구매자 우편번호
