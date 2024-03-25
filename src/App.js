@@ -39,7 +39,6 @@ function App() {
   function callback(response) {
     const {
       success,
-      merchant_uid,
       error_msg,
     } = response;
 
