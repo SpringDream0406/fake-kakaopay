@@ -6,7 +6,7 @@ function App() {
   const amountRef = useRef(null);
   const nameRef = useRef(null);
   const IMP_init = process.env.REACT_APP_IMP;
-  const buyer_tel = process.env.REACT_APP_BUYER_TEL
+  const buyer_tel = process.env.REACT_APP_BUYER_TEL;
 
 
   function onClickPayment() {
