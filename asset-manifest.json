@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fake-kakaopay/static/css/main.f855e6bc.css",
-    "main.js": "/fake-kakaopay/static/js/main.c8efe4f6.js",
+    "main.js": "/fake-kakaopay/static/js/main.bd9fe2f2.js",
     "static/js/453.1ffbd5a0.chunk.js": "/fake-kakaopay/static/js/453.1ffbd5a0.chunk.js",
     "index.html": "/fake-kakaopay/index.html",
     "main.f855e6bc.css.map": "/fake-kakaopay/static/css/main.f855e6bc.css.map",
-    "main.c8efe4f6.js.map": "/fake-kakaopay/static/js/main.c8efe4f6.js.map",
+    "main.bd9fe2f2.js.map": "/fake-kakaopay/static/js/main.bd9fe2f2.js.map",
     "453.1ffbd5a0.chunk.js.map": "/fake-kakaopay/static/js/453.1ffbd5a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.c8efe4f6.js"
+    "static/js/main.bd9fe2f2.js"
   ]
 }
