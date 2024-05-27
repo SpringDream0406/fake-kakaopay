@@ -39,6 +39,8 @@ function App() {
 
     if (success) {
       alert("결제 성공");
+      amountRef.current.value = "";
+      nameRef.current.value = "";
     } else {
       alert(`결제 실패: ${error_msg}`);
     }
@@ -51,8 +53,6 @@ function App() {
     minute: "2-digit",
     hour12: false,
   });
-  console.log(nowDdate, nowTime);
-  console.log("re");
 
   return (
     <div className="background">
